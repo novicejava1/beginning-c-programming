@@ -1,7 +1,7 @@
 /* Program to define a macro */
 #include <stdio.h>
 
-#define INCHES_PER_FOOT 12
+#define INCHES_PER_FOOT 12											// Replaces INCHES_PER_FOOT Symbol constant with string 12
 
 int main(void)
 {
