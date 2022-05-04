@@ -8,5 +8,5 @@ int main(void)
 	float piece_length = 0.0f;
 
 	piece_length = plank_length/piece_count;
-	printf("The plank of %f can be cut into %f pieces of length %f\n", plank_length, piece_count, piece_length);
+	printf("The plank of %.2f can be cut into %.2f pieces of length %.2f\n", plank_length, piece_count, piece_length);
 }
