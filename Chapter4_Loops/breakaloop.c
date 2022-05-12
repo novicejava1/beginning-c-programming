@@ -8,7 +8,8 @@ int main(void)
 	for(;;)
 	{
 		printf("Do you want to enter some more (y/n) : ");
-		scanf("%c", &answer);
+		scanf(" %c", &answer);
+		printf("%d", answer);
 		if(tolower(answer) == 'n')
 			break;
 	}
