@@ -7,12 +7,12 @@ int main(void)
 	unsigned int count = 0;
 
 	printf("Enter the number of integers to sum : ");
-	scanf("%d", &count);
+	scanf("%u", &count);
 
 	for(int i = 0; i <= count; ++i)
 	{
 		sum += i;
 	}
 
-	printf("The sum of all the numbers is : %d \n", sum);
+	printf("The sum of all the numbers is : %llu \n", sum);
 }
