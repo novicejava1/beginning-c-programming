@@ -17,7 +17,14 @@ int main(void)
 	}
 
 	average = (float)sum/count;
-	printf("Average of 10 grades is : %.2f \n", average);
+
+	// List the grades
+	for(unsigned int i = 0; i < count; ++i)
+	{
+		printf("%d ", grades[i]);
+	}
+
+	printf("\nAverage of 10 grades is : %.2f \n", average);
 
 	return 0;
 }
