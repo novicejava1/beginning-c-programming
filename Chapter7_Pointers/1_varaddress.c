@@ -1,4 +1,4 @@
-/* Print Address and Value of Variable */
+/* Example variable address */
 #include <stdio.h>
 
 int main(void)
