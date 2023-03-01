@@ -9,6 +9,5 @@ int main(void)
     char *pbook = &book[0];
     printf ("pointer pbook points to first byte adderss : %p\n", pbook);
 
-
-
+    return 0;
 }

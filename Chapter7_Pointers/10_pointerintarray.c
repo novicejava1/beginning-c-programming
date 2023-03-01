@@ -11,4 +11,6 @@ int main(void)
     {
         printf("address p+%d (&num[%d]): %llu *(p+%d) value: %d\n",i, i, (unsigned long long)(p+i), i, *(p+i));
     }
+
+    return 0;
 }

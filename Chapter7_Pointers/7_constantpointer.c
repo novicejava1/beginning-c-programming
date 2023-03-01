@@ -15,4 +15,6 @@ int main(void)
     int item2 = 25;                     
     const int *const pitem = &item2;     // Define a constant pointer that points to value that is constant
     printf("%d\n", *pitem);
+
+    return 0;
 }
