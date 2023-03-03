@@ -28,9 +28,12 @@ int main(void)
     int result = 0;
     int (*pfun[3]) (int, int);          // Declaring a array of pointers to functions
 
+    //int (*pfun[3]) (int, int) = {sum, product, difference};          //  Declar and initialize the array of pointer to functions
     pfun[0] = sum;
     pfun[1] = product;
     pfun[2] = difference;
+
+
 
     for(int i = 0; i < 3; ++i)
     {
