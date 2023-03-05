@@ -22,7 +22,7 @@ int main(void)
 
     for(hcount = 0; hcount < sizeof(trigger)/sizeof(Horse); ++hcount)
     {
-        printf("Do you want to enter details of the a%s Horse (Y or N):\n", hcount?"nother":"");
+        printf("Do you want to enter details of a%s Horse (Y or N):\n", hcount?"nother":"");
         scanf(" %c", &test);
         if(tolower(test) == 'n')
             break;
